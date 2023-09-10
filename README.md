@@ -19,19 +19,19 @@ Facilitar o processo de tratamento dos transtornos alimentares, o aplicativo ir�
 Essa aplicação irá permitir que as pessoas monitorem seus hábitos alimentares, o tempo gasto se exercitando e até mesmo seus níveis de ansiedade ou humor. Com base nesses dados, a aplicação poderá fornecer feedback personalizado e dicas para ajudar as pessoas a gerenciar seus sintomas e desenvolver um relacionamento mais saudável com a comida. 
 
 # Código para implantar a solução no Azure App Service
-az webapp up --name NourishMe --resource-group NourishMe --plan NourishMe
+az webapp up --name nourishme --resource-group nourishme --plan nourishme
 
 # Código para implantar a solução no Azure Container Registry (ACR)
-az acr create --name NourishMe --resource-group NourishMe --sku Basic
+az acr create --name nourishme --resource-group nourishme --sku Basic
 
 # Código para implantar a solução no Azure Container Instances (ACI)
-az container create --name NourishMe --resource-group NourishMe --image NourishMe --registry-login-server NourishMe --registry-username user123 --registry-password senha1234
+az container create --name nourishme --resource-group nourishme --image nourishme --registry-login-server nourishme --registry-username user123 --registry-password senha1234
 
 # Código para criar um Banco de Dados em Nuvem no Azure
-az sql server create --name NourishMe_sql --resource-group NourishMe --location brazilsouth --admin-user user123 --admin-password senha1234
+az sql server create --name nourishme_sql --resource-group nourishme --location brazilsouth --admin-user user123 --admin-password senha1234
 
 # Código para criar tabelas no Banco de Dados em Nuvem
-az sql db create --name NourishMe --resource-group NourishMe --server NourishMe_sql --service-objective Essa aplicação irá permitir que as pessoas monitorem seus hábitos alimentares, o tempo gasto se exercitando e até mesmo seus níveis de ansiedade ou humor. Com base nesses dados, a aplicação poderá fornecer feedback personalizado e dicas para ajudar as pessoas a gerenciar seus sintomas e desenvolver um relacionamento mais saudável com a comida. 
+az sql db create --name nourishme --resource-group nourishme --server nourishme_sql --service-objective Essa aplicação irá permitir que as pessoas monitorem seus hábitos alimentares, o tempo gasto se exercitando e até mesmo seus níveis de ansiedade ou humor. Com base nesses dados, a aplicação poderá fornecer feedback personalizado e dicas para ajudar as pessoas a gerenciar seus sintomas e desenvolver um relacionamento mais saudável com a comida. 
 
 # Código para realizar um CRUD nas tabelas do Banco de Dados em Nuvem
 # Inclusão
