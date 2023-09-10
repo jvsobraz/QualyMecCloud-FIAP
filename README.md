@@ -25,7 +25,7 @@ az webapp up --name nourishme --resource-group nourishme --plan nourishme
 az acr create --name nourishme --resource-group nourishme --sku Basic
 
 # Código para implantar a solução no Azure Container Instances (ACI)
-az container create --name nourishme --resource-group nourishme --image nourishme --registry-login-server nourishme --registry-username user123 --registry-password senha1234
+az container create --name nourishme --resource-group nourishme --image ubuntu --registry-login-server nourishme --registry-username user123 --registry-password senha1234
 
 # Código para criar um Banco de Dados em Nuvem no Azure
 az sql server create --name nourishme_sql --resource-group nourishme --location brazilsouth --admin-user user123 --admin-password senha1234
