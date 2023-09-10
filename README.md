@@ -31,7 +31,8 @@ az container create --name nourishme --resource-group nourishme --image ubuntu -
 az sql server create --name nourishme-sql --resource-group nourishme --location brazilsouth --admin-user user123 --admin-password Challengesprint*DevOps
 
 # Código para criar tabelas no Banco de Dados em Nuvem
-az sql db create --name nourishme --resource-group nourishme --server nourishme-sql --service-objective Essa aplicação irá permitir que as pessoas monitorem seus hábitos alimentares, o tempo gasto se exercitando e até mesmo seus níveis de ansiedade ou humor. Com base nesses dados, a aplicação poderá fornecer feedback personalizado e dicas para ajudar as pessoas a gerenciar seus sintomas e desenvolver um relacionamento mais saudável com a comida. 
+az sql db create --resource-group nourishme --server nourishme-sql --name nourishme --zone-redundant
+false
 
 # Código para realizar um CRUD nas tabelas do Banco de Dados em Nuvem
 # Inclusão
