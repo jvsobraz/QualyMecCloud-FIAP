@@ -1,0 +1,41 @@
+{
+    "sku": {
+        "name": "GP_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "0a751cda-7a1f-47d2-a125-3983695e843b",
+        "creationDate": "2023-09-10T16:53:05.85Z",
+        "currentServiceObjectiveName": "GP_Gen5_2",
+        "requestedServiceObjectiveName": "GP_Gen5_2",
+        "defaultSecondaryLocation": "southcentralus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "licenseType": "LicenseIncluded",
+        "maxLogSizeBytes": 193273528320,
+        "earliestRestoreDate": "2023-09-10T16:56:55Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "currentBackupStorageRedundancy": "Geo",
+        "requestedBackupStorageRedundancy": "Geo",
+        "maintenanceConfigurationId": "/subscriptions/68a26bf5-55a3-4c3b-a5c7-caf58288e661/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "availabilityZone": "NoPreference"
+    },
+    "location": "brazilsouth",
+    "id": "/subscriptions/68a26bf5-55a3-4c3b-a5c7-caf58288e661/resourceGroups/nourishme/providers/Microsoft.Sql/servers/nourishme-sql/databases/nourishme",
+    "name": "nourishme",
+    "type": "Microsoft.Sql/servers/databases"
+}

@@ -1,0 +1,33 @@
+//Registro de contêiner
+
+{
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "type": "Microsoft.ContainerRegistry/registries",
+    "id": "/subscriptions/68a26bf5-55a3-4c3b-a5c7-caf58288e661/resourceGroups/nourishme/providers/Microsoft.ContainerRegistry/registries/nourishme",
+    "name": "nourishme",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "loginServer": "nourishme.azurecr.io",
+        "creationDate": "2023-09-10T16:36:02.4309447Z",
+        "provisioningState": "Succeeded",
+        "adminUserEnabled": false,
+        "policies": {
+            "quarantinePolicy": {
+                "status": "disabled"
+            },
+            "trustPolicy": {
+                "type": "Notary",
+                "status": "disabled"
+            },
+            "retentionPolicy": {
+                "days": 7,
+                "lastUpdatedTime": "2023-09-10T16:36:09.0238015+00:00",
+                "status": "disabled"
+            }
+        }
+    }
+}
