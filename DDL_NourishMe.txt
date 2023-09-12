@@ -1,0 +1,37 @@
+INSERT INTO NOURISHME_USUARIO VALUES (100, 'anajuliao@gmail.com', 'Banana123*', 'Ana Julia Oliveira', '24-06-2001', 11923410976);
+INSERT INTO NOURISHME_USUARIO VALUES (101, 'carloseduardocunha@gmail.com', 'MustangPreta23', 'Carlos Eduardo Cunha', '12-08-1996', 11976123405);
+INSERT INTO NOURISHME_USUARIO VALUES (102, 'robertamoglia@hotmail.com', 'CacauEJujuba1', 'Roberta Almeida Moglia', '08-09-2000', 11980762341);
+INSERT INTO NOURISHME_USUARIO VALUES (103, 'beatrizsantos12@yahoo.com.br', 'Porta@1234', 'Beatriz dos Santos', '01-04-1997', 11976234097);
+INSERT INTO NOURISHME_USUARIO VALUES (104, 'lorenzofrancisco@gmail.com', 'PaiMae2309', 'Lorenzo de Francisco', '02-03-1994', 11980213476);
+
+INSERT INTO NOURISHME_REGISTRO VALUES(1, 101, 'cafe da manha', 'Pao com manteiga e cafe', 'feliz','21-05-2023 10:01:00');
+INSERT INTO NOURISHME_REGISTRO VALUES(2, 101, 'almoco', 'macarrao com bolonhesa e frango empanado', 'feliz', '21-05-2023 13:40:05');
+INSERT INTO NOURISHME_REGISTRO VALUES(3, 102, 'lanche', 'cafe com torradas', 'enjoado', '21-05-2023 17:01:12');
+INSERT INTO NOURISHME_REGISTRO VALUES(4, 101, 'jantar', 'Lasanha e coca', 'triste', '21-05-2023 21:15:23');
+INSERT INTO NOURISHME_REGISTRO VALUES(5, 101,'sobremesa', 'pudim', 'feliz', '21-05-2023 21:00:49');
+INSERT INTO NOURISHME_REGISTRO VALUES(6, 102,'almoco', 'Nhoque e bolonhesa', 'enjoado', '21-05-2023 12:15:23');
+INSERT INTO NOURISHME_REGISTRO VALUES(7, 102,'sobremesa', 'cheesecake', 'triste', '21-05-2023 21:00:00');
+INSERT INTO NOURISHME_REGISTRO VALUES(8, 102,'jantar', 'Arroz, feij?o e salada', 'raiva','21-05-2023 20:03:23');
+
+INSERT INTO NOURISHME_REGISTRO VALUES(9, 103,'almoco', 'Arroz, feijao, salada, frango grelhado', 'feliz','11-09-2023 12:03:23');
+INSERT INTO NOURISHME_REGISTRO VALUES(10, 103,'lanche', 'p o de queijo e cafe', 'triste','11-09-2023 16:21:03');
+INSERT INTO NOURISHME_REGISTRO VALUES(11, 103,'jantar', 'nhoque com molho bolonhesa', 'feliz','11-09-2023 20:15:39');
+
+INSERT INTO NOURISHME_REGISTRO VALUES(12, 100, 'cafe da manha', 'misto quente e mamao com aveia', 'feliz',  '11-09-2023 09:03:56');
+INSERT INTO NOURISHME_REGISTRO VALUES(13, 100, 'jantar', 'arroz, feijao, batata frita e bife', 'sens vel','11-09-2023 19:36:03');
+
+INSERT INTO NOURISHME_REGISTRO VALUES(14, 104, 'cafe da manha', 'torrada e ovos', 'indiferente',  '11-09-2023 08:15:46');
+INSERT INTO NOURISHME_REGISTRO VALUES(15, 104, 'almoco', 'lasanha com molho branco e asinha de frango', 'indiferente','11-09-2023 13:01:03');
+INSERT INTO NOURISHME_REGISTRO VALUES(16, 104, 'lanche', 'bolinho de chuva e p o de queijo', 'indiferente',  '11-09-2023 17:27:31');
+
+select * from nourishme_registro order by id_usuario;
+
+/*INSERT INTO NOURISHME_HISTORICO (id_usuario) VALUES(100);
+INSERT INTO NOURISHME_HISTORICO (id_usuario) VALUES(101);
+INSERT INTO NOURISHME_HISTORICO (id_usuario) VALUES(102);
+INSERT INTO NOURISHME_HISTORICO (id_usuario) VALUES(103);
+INSERT INTO NOURISHME_HISTORICO (id_usuario) VALUES(104);*/
+
+--INSERT INTO NOURISHME_REGISTRO VALUES(18, 102,'lanche', 'p o de queijo', 'raiva','21-05-2023 17:01:53');
+
+COMMIT;
